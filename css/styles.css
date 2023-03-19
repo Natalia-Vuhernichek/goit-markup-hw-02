@@ -5,7 +5,7 @@
     --btn-text-color: #FFFFFF;
     --footer-logo-color: #F4F4FD;
     --second-background-color:#E7E9FC;
-    --button-active-color: #404BBF;
+    --button-active-color: #4D5AE5;
     --header-footer-background-color: #2E2F42;
     --second-background-color: #F4F4FD;
     --hero-btn-color: #4D5AE5;
@@ -213,16 +213,6 @@ body {
 
 /*--------------------------FILTER----------------------------------*/
 
-.filter-btn-active {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    background: #404BBF;
-}
 
 .filter-btn {
     font-family: 'Roboto', sans-serif;
@@ -230,14 +220,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--button-active-color, #4D5AE5);
     cursor: pointer;
-    background: #F4F4FD;
+    background-color: var(--second-background-color, #F4F4FD );
 }
 
 .filter-btn:is(:hover, :focus) {
-    background: #4D5AE5;
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
+
+
 /*--------------------------FUNCTIONALITY----------------------------*/
 
 .functionality-title {
@@ -249,7 +242,9 @@ body {
 }
 
 .functionality-text {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--text-color, #434455);
 }
 
