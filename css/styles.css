@@ -72,6 +72,9 @@ body {
     color: #404BBF;
     background-color: #404BBF;
 }
+.header-address {
+    font-style: normal;
+}
 
 .address-link {
     font-style: normal;
