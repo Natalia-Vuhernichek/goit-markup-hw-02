@@ -43,6 +43,7 @@ body {
 
 .logo-web:is(:hover, :focus) {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .logo-studio {
@@ -57,6 +58,7 @@ body {
 
 .logo-studio:is(:hover, :focus) {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .header-link {
@@ -68,6 +70,7 @@ body {
 
 .header-link:is(:hover, :focus) {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .address-link {
@@ -79,6 +82,7 @@ body {
 
 .address-link:is(:hover, :focus) {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*---------------------------------------HERO-----------------------------------------------*/
@@ -89,12 +93,14 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 .hero-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -104,6 +110,7 @@ body {
 
 .hero-button:is(:hover, :focus) {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*-----------------------------------FEATURES-----------------------*/
@@ -129,6 +136,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color, #2E2F42);
@@ -136,10 +144,18 @@ body {
 
 /*----------------------------TEAM--------------------------*/
 
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color, #2E2F42);
@@ -176,6 +192,7 @@ body {
 }
 .footer-logo-studio:is(:hover, :focus) {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .footer-text {
@@ -207,8 +224,6 @@ body {
     cursor: pointer;
     background: #F4F4FD;
 }
-
-.filter-btn-active:is(:hover, :focus)
 
 .filter-btn:is(:hover, :focus) {
     background: #4D5AE5;
