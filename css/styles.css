@@ -38,12 +38,6 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
-    
-}
-
-.logo-web:is(:hover, :focus) {
-    color: #404BBF;
-    background-color: #404BBF;
 }
 
 .logo-studio {
@@ -56,11 +50,6 @@ body {
     color: var(--title-text-color, #2E2F42);
 }
 
-.logo-studio:is(:hover, :focus) {
-    color: #404BBF;
-    background-color: #404BBF;
-}
-
 .header-link {
     font-weight: 500;
     line-height: 1.5;
@@ -70,7 +59,6 @@ body {
 
 .header-link:is(:hover, :focus) {
     color: #404BBF;
-    background-color: #404BBF;
 }
 .header-address {
     font-style: normal;
@@ -85,7 +73,6 @@ body {
 
 .address-link:is(:hover, :focus) {
     color: #404BBF;
-    background-color: #404BBF;
 }
 
 .address-email {
@@ -119,7 +106,6 @@ body {
 }
 
 .hero-button:is(:hover, :focus) {
-    color: #404BBF;
     background-color: #404BBF;
 }
 
